@@ -54,3 +54,12 @@ In the interest of reducing / removing the need for PageA to have the code to co
 The demo relies almost entirely on Vue's Composition API (part of Vue 3.x). Through this test/demo, I want to advocate for adoption of Vue Composition API (which is a subset of Vue 3.x, but is ready to use in projects).
 
 Besides the oft-cited logical composition benefits that the API offers, it plays very well with our component architecture to enable us to write code faster (by removing the need/overhead of starting everything as options).
+
+### Run the app:
+
+```bash
+git clone ....
+cd ...
+yarn
+yarn serve
+```
