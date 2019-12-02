@@ -18,6 +18,20 @@ Eg: `import { ComponentA, ComponentB } from 'github/algoshelf-components`
 
 And they can be imported into any supported project.
 
+Another advantage of this approach is that once you install the components globally (via `import AlgoComps from 'github/algoshelf-compoents` + `Vue.use(AlgoComps)`), there is no need to import them individually. Pages can be become as simple as this:
+
+```vue
+<template>
+  <div>
+    <ComponentA>
+    <ComponentB>
+    <ComponentC>
+  </div>
+</template>
+```
+
+(no script required, no import/exports etc)
+
 ## EventBus
 
 Having store-like dependency in a component library is an anti-pattern because we'd end up coupling application-specific ideas/nomenclatures into the component system (although this is permissible given our definition of business components).
