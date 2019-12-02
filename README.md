@@ -14,11 +14,11 @@ Going the `npm` way had issues because there was no singular export file back th
 
 In order to make things simpler and more re-usable as a package, we can put the new business components being designed (along with their dependencies as far as permissible) in their own NPM Registry or Github Package Registry. This will help us immensely in importing components selectively like this:
 
-Eg: `import { ComponentA, ComponentB } from 'github/algoshelf-components`
+Eg: `import { ComponentA, ComponentB } from 'github/algoshelf-components'`
 
 And they can be imported into any supported project.
 
-Another advantage of this approach is that once you install the components globally (via `import AlgoComps from 'github/algoshelf-compoents` + `Vue.use(AlgoComps)`), there is no need to import them individually. Pages can be become as simple as this:
+Another advantage of this approach is that once you install the components globally (via `import AlgoComps from 'github/algoshelf-compoents` + `Vue.use(AlgoComps)`), there is no need to import them individually. Pages can become as simple as this:
 
 ```vue
 <template>
