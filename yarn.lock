@@ -1275,6 +1275,11 @@ ajv@^6.1.0, ajv@^6.10.2, ajv@^6.5.5, ajv@^6.9.1:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
+algo-components-test@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/algo-components-test/-/algo-components-test-0.1.0.tgz#5dedc6167539207eb06318937abc2451aa29c9d1"
+  integrity sha512-eZ9c0CihpqTKChCG3tSi55Ge1HDO6gzgLJKVyV6PTKrGPgXe0wbtYbD/S31wVzDdqanhWt1azJxxLSLoxLs/1g==
+
 alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
